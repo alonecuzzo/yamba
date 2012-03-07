@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MixseeTheme" parent="@style/Theme.Sherlock.Light">
+    	<item name="abBackground">@drawable/ab_bkgrnd</item>
+    	<item name="abIcon">@drawable/ab_mixsee_logo</item>
+    	<!-- <item name="abTitleTextStyle">@style/CustomTitle</item> -->
+    	<!-- <item name="abSubtitle">100% set from the style attributes</item> -->
+    	<item name="actionBarSize">48dip</item>
+    	<item name="abDisplayOptions">useLogo|showHome</item>
+    	<item name="android:tabWidgetStyle">@style/MixseeTabWidget</item>
+    </style>
+    
+    
+    <style name="MixseeTabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:textAppearance">@style/MixseeTabWidgetText</item>
+    </style>
+    
+    
+     <style name="MixseeTabWidgetText" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">12sp</item>
+    	<!-- <item name="android:textStyle">bold</item> -->
+    </style>
+    
+    
+</resources>

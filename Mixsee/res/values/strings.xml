@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MixseeActivity!</string>
+    <string name="app_name">Mixsee</string>
+    <string name="hello_world">sup </string>
+    <string name="new_fragment">new frag</string>
+
+</resources>
