@@ -378,10 +378,12 @@ containing a value of this type.
         public static final int ic_menu_star_holo_light=0x7f020042;
         public static final int ic_stat_android=0x7f020043;
         public static final int icon=0x7f020044;
-        public static final int mixsees=0x7f020045;
-        public static final int profile=0x7f020046;
-        public static final int spinner_default_holo_light=0x7f020047;
-        public static final int spinner_disabled_holo_light=0x7f020048;
+        public static final int mixsee_tour_pic=0x7f020045;
+        public static final int mixseelist1=0x7f020046;
+        public static final int mixsees=0x7f020047;
+        public static final int profile=0x7f020048;
+        public static final int spinner_default_holo_light=0x7f020049;
+        public static final int spinner_disabled_holo_light=0x7f02004a;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f05001b;
@@ -405,8 +407,19 @@ containing a value of this type.
         public static final int abs__textButton=0x7f050019;
         public static final int abs__up=0x7f050010;
         public static final int homeAsUp=0x7f050006;
+        public static final int image1=0x7f050020;
+        public static final int image10=0x7f050029;
+        public static final int image11=0x7f05002a;
+        public static final int image2=0x7f050021;
+        public static final int image3=0x7f050022;
+        public static final int image4=0x7f050023;
+        public static final int image5=0x7f050024;
+        public static final int image6=0x7f050025;
+        public static final int image7=0x7f050026;
+        public static final int image8=0x7f050027;
+        public static final int image9=0x7f050028;
         public static final int listMode=0x7f050002;
-        public static final int mixsee_webview=0x7f050020;
+        public static final int mixsee_webview=0x7f05002b;
         public static final int normal=0x7f050001;
         public static final int realtabcontent=0x01010000;
         public static final int showCustom=0x7f050008;
@@ -437,7 +450,8 @@ containing a value of this type.
         public static final int fragment_stack=0x7f03000b;
         public static final int hello_world=0x7f03000c;
         public static final int main=0x7f03000d;
-        public static final int webview_layout=0x7f03000e;
+        public static final int mixsee_list=0x7f03000e;
+        public static final int webview_layout=0x7f03000f;
     }
     public static final class string {
         public static final int abs__tab_under_ab_tag=0x7f090000;

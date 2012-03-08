@@ -33,7 +33,7 @@ public class MixseeActivity extends FragmentActivity {
         mTabManager.addTab(mTabHost.newTabSpec("contacts").setIndicator("Create", getResources().getDrawable(R.drawable.create)),
         		FragmentStackSupport.CountingFragment.class, null);
         mTabManager.addTab(mTabHost.newTabSpec("custom").setIndicator("Favorites", getResources().getDrawable(R.drawable.favorites)),
-        		FragmentStackSupport.CountingFragment.class, null);
+        		MixseeListSupport.MixseeListViewFragment.class, null);
         mTabManager.addTab(mTabHost.newTabSpec("throttle").setIndicator("Profile", getResources().getDrawable(R.drawable.profile)),
         		FragmentStackSupport.CountingFragment.class, null);
 

@@ -73,7 +73,7 @@ public class FragmentStackSupport extends FragmentActivity {
             WebView wv = (WebView) v.findViewById(R.id.mixsee_webview);
             wv.setWebViewClient(new MixseeWebViewClient());
             wv.getSettings().setJavaScriptEnabled(true);
-            wv.loadUrl("http://dev.mixsee.com");
+            wv.loadUrl("http://mobile.mixsee.com");
             wv.setHorizontalScrollBarEnabled(false);
             
             //prevent horizontal scrolling 
@@ -94,10 +94,7 @@ public class FragmentStackSupport extends FragmentActivity {
         	@Override
         	public void onPageStarted(WebView webView, String url, Bitmap favicon) {
 
-        		Animation anim = AnimationUtils.loadAnimation(getActivity(), R.animator.webview_animator_out);
-        		anim.reset();
-        		webView.clearAnimation();
-        		webView.startAnimation(anim);
+
         	}
         	
 //        	@Override
